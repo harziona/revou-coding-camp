@@ -66,7 +66,7 @@ Implementasi `index.html` tunggal dengan CSS internal — tidak ada framework ek
     - Tambahkan CSS hover effect: `.service-card:hover { transform: translateY(-4px); box-shadow: ...; }` dengan `transition: var(--transition)`
     - _Requirements: 5.3, 5.5, 8.5_
 
-- [-] 6. Checkpoint — Struktur dan layout dasar
+- [x] 6. Checkpoint — Struktur dan layout dasar
   - Buka `index.html` di browser, verifikasi semua section tampil dengan benar
   - Pastikan sticky nav berfungsi saat scroll
   - Pastikan smooth scroll aktif saat klik tautan nav
@@ -112,7 +112,7 @@ Implementasi `index.html` tunggal dengan CSS internal — tidak ada framework ek
     - Verifikasi service cards: 1 kolom di mobile, 2 kolom di tablet, 3 kolom di desktop
     - _Requirements: 5.3, 8.4_
 
-- [~] 10. Final checkpoint — Verifikasi menyeluruh
+- [x] 10. Final checkpoint — Verifikasi menyeluruh
   - Validasi HTML di [validator.w3.org](https://validator.w3.org) — tidak ada error
   - Verifikasi semua section memiliki id anchor yang benar (`#hero`, `#about`, `#services`, `#contact`)
   - Verifikasi smooth scroll berfungsi untuk semua tautan nav

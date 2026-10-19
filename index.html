@@ -483,9 +483,6 @@
         grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
         gap: 1.5rem;
         margin-top: 3rem;
-        max-width: var(--container-max-width);
-        margin-left: auto;
-        margin-right: auto;
       }
 
       .service-card {
@@ -648,33 +645,35 @@
 
       <!-- Services Section — Task 5 -->
       <section id="services">
-        <h2>Layanan Kami</h2>
-        <div class="services-grid">
+        <div class="services-container">
+          <h2>Layanan Kami</h2>
+          <div class="services-grid">
 
-          <div class="service-card">
-            <span class="service-icon">💻</span>
-            <h3>Web Development</h3>
-            <p>Kami membangun website responsif dan modern yang memberikan pengalaman pengguna terbaik.</p>
+            <div class="service-card">
+              <span class="service-icon" aria-hidden="true">💻</span>
+              <h3>Web Development</h3>
+              <p>Kami membangun website responsif dan modern yang memberikan pengalaman pengguna terbaik.</p>
+            </div>
+
+            <div class="service-card">
+              <span class="service-icon" aria-hidden="true">📱</span>
+              <h3>Mobile App</h3>
+              <p>Pengembangan aplikasi mobile native dan cross-platform untuk iOS dan Android.</p>
+            </div>
+
+            <div class="service-card">
+              <span class="service-icon" aria-hidden="true">☁️</span>
+              <h3>Cloud Solutions</h3>
+              <p>Infrastruktur cloud yang scalable dan aman untuk mendukung pertumbuhan bisnis Anda.</p>
+            </div>
+
+            <div class="service-card">
+              <span class="service-icon" aria-hidden="true">🎨</span>
+              <h3>UI/UX Design</h3>
+              <p>Desain antarmuka yang intuitif dan menarik untuk meningkatkan konversi dan kepuasan pengguna.</p>
+            </div>
+
           </div>
-
-          <div class="service-card">
-            <span class="service-icon">📱</span>
-            <h3>Mobile App</h3>
-            <p>Pengembangan aplikasi mobile native dan cross-platform untuk iOS dan Android.</p>
-          </div>
-
-          <div class="service-card">
-            <span class="service-icon">☁️</span>
-            <h3>Cloud Solutions</h3>
-            <p>Infrastruktur cloud yang scalable dan aman untuk mendukung pertumbuhan bisnis Anda.</p>
-          </div>
-
-          <div class="service-card">
-            <span class="service-icon">🎨</span>
-            <h3>UI/UX Design</h3>
-            <p>Desain antarmuka yang intuitif dan menarik untuk meningkatkan konversi dan kepuasan pengguna.</p>
-          </div>
-
         </div>
       </section>
 
